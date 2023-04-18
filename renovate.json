@@ -3,5 +3,13 @@
   "extends": [
     "config:base"
   ],
-  "prHourlyLimit": 4
+  "prHourlyLimit": 4,
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "boolean:MY_VALUE"
+      ],
+      "enabled": false
+    }
+  ]
 }
